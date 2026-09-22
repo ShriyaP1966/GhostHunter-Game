@@ -1,42 +1,36 @@
-# 👻 GhostHunter
+# 👻 Ghost Hunter
 
-A fast-paced browser arcade game — dodge ghosts, blast them with spectral bolts, and chase the high score. Built as a single self-contained HTML file, no install required.
+A fast, glowing top-down arcade shooter packed into a single HTML file — dodge ghosts, blast them with spectral bolts, and chase your high score. No install, no build step, just open it and play.
 
-## 🎮 Play the Game
+## ▶ Play
 
-**[▶ Play GhostHunter now](https://shriyap1966.github.io/GhostHunter-Game/)**
+**[Play Ghost Hunter](https://shriyap1966.github.io/GhostHunter-Game/)**
 
 ## ✨ Features
 
-- Wave-based ghost spawning with increasing speed and difficulty per level
-- Score, lives, and level tracking with a live on-screen HUD
-- Persistent high score saved locally in your browser
-- Random life power-up drops from destroyed ghosts
-- Procedural sound effects via the Web Audio API, with a mute toggle
-- Responsive layout with on-screen touch controls for mobile
+- Canvas-based movement and shooting, rendered crisply at your device's pixel ratio
+- Wave-based ghost spawning that ramps up in speed and density every level
+- Live HUD tracking score, lives, level, and ghost count
+- High score saved locally, so it persists between visits
+- Random life power-ups drop from destroyed ghosts
+- Procedural sound effects via the Web Audio API, with a one-click mute toggle
+- On-screen d-pad and fire button that appear automatically on mobile
+- Auto-pauses when you switch tabs, so you never lose a life to a background tab
 
-## 🕹️ How to Play
+## 🕹️ Controls
 
-| Action | Control |
+| Action | Key |
 |---|---|
 | Move | Arrow keys / `WASD` |
 | Shoot | `Space` |
 | Pause | `P` |
-| Start | `Enter` or Start button |
+| Start / Restart | `Enter` or the on-screen buttons |
 
-Destroy ghosts for points, avoid getting touched, and survive as the waves get faster. Every 500 points levels you up.
+Destroy ghosts for points, dodge their charges, and survive as the waves get faster — every 500 points levels you up.
 
-## 🛠️ Tech Stack
+## 🛠️ Tech
 
-Plain **HTML5 Canvas**, **CSS**, and **vanilla JavaScript** — no frameworks, no build step, no dependencies.
-
-## About the Project
-
-GhostHunter is a small, self-contained arcade game made for fun — one HTML file, playable instantly in any modern browser.
-
-## Credits
-
-Made by **Shriya Patil**.
+Pure **HTML5 Canvas**, **CSS**, and **vanilla JavaScript** — no frameworks, no dependencies, no build tools. It's a single file you can open directly in a browser.
 
 ## License
 
